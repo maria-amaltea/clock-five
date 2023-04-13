@@ -162,15 +162,15 @@ class App extends Component {
           <div id="config">
             <div id="" className="adjust">
               <div id="break-label">Break Length</div>
-              <FontAwesomeIcon id="break-increment" icon={faArrowUp} onClick={() => (!this.state.play && this.state.breakLength !== 60 ? this.handleBreak("increment") : null)} />
+              <button id="break-increment" onClick={() => (!this.state.play && this.state.breakLength !== 60 ? this.handleBreak("increment") : null)}><FontAwesomeIcon icon={faArrowUp}  /></button>
               <div id="break-length">{this.state.breakLength}</div>
-              <FontAwesomeIcon id="break-decrement" icon={faArrowDown} onClick={() => (!this.state.play && this.state.breakLength > 1 ? this.handleBreak("decrement") : null)} />
+              <button id="break-decrement" onClick={() => (!this.state.play && this.state.breakLength > 1 ? this.handleBreak("decrement") : null)}><FontAwesomeIcon  icon={faArrowDown}  /></button>
             </div>
             <div id="" className="adjust">
               <div id="session-label">Session Length</div>
-              <FontAwesomeIcon id="session-increment" icon={faArrowUp} onClick={() => (!this.state.play && this.state.sessionLength !== 60 ? this.handleSession("increment") : null)} />
+              <button id="session-increment" onClick={() => (!this.state.play && this.state.sessionLength !== 60 ? this.handleSession("increment") : null)} > <FontAwesomeIcon icon={faArrowUp}/></button>
               <div id="session-length">{this.state.sessionLength}</div>
-              <FontAwesomeIcon id="session-decrement" icon={faArrowDown} onClick={() => (!this.state.play && this.state.sessionLength > 1 ? this.handleSession("decrement") : null)} />
+              <button id="session-decrement" onClick={() => (!this.state.play && this.state.sessionLength > 1 ? this.handleSession("decrement") : null)} ><FontAwesomeIcon  icon={faArrowDown}/></button>
             </div>
           </div>
           <div id="timer-label">{this.state.timerLabel}</div>
@@ -179,7 +179,7 @@ class App extends Component {
           <div id="config">
             <div id="start_stop">{this.state.play === true ? <Pause onClick={() => this.handlePlayButton()} /> : <Play onClick={() => this.handlePlayButton()} />}</div>
             <div>
-              <Reset id="reset" onClick={() => this.handleReset()} />
+              <div id="reset"><Reset onClick={() => this.handleReset()} /></div>
               <div id="whatever" onClick={() => this.setState({timeLeft:"00:05"})} >Play 5 seconds</div>
             </div>
           </div>

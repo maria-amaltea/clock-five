@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/clock-five/build/static/css/main.61916a3d.css",
-    "main.js": "/clock-five/build/static/js/main.529f57c1.js",
+    "main.css": "/clock-five/build/static/css/main.3cd6782f.css",
+    "main.js": "/clock-five/build/static/js/main.73faf98f.js",
     "static/js/787.a174f9e5.chunk.js": "/clock-five/build/static/js/787.a174f9e5.chunk.js",
     "index.html": "/clock-five/build/index.html",
-    "main.61916a3d.css.map": "/clock-five/build/static/css/main.61916a3d.css.map",
-    "main.529f57c1.js.map": "/clock-five/build/static/js/main.529f57c1.js.map",
+    "main.3cd6782f.css.map": "/clock-five/build/static/css/main.3cd6782f.css.map",
+    "main.73faf98f.js.map": "/clock-five/build/static/js/main.73faf98f.js.map",
     "787.a174f9e5.chunk.js.map": "/clock-five/build/static/js/787.a174f9e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61916a3d.css",
-    "static/js/main.529f57c1.js"
+    "static/css/main.3cd6782f.css",
+    "static/js/main.73faf98f.js"
   ]
 }
